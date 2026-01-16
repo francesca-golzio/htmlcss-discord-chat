@@ -1,0 +1,20 @@
+/*#region Common */
+
+/* CSS reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: content-box;
+}
+
+body {
+  /* background-color: red; */
+}
+
+/*#endregion Common */
+
+/* #region main */
+
+
+
+/* #endregion main */
