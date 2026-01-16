@@ -9,12 +9,28 @@
 
 body {
   /* background-color: red; */
+  max-width: 512px;
 }
 
 /*#endregion Common */
 
 /* #region main */
 
+.sidebar {
+  background-color: cornflowerblue;
+}
+
+.chat-list-container {
+  background-color: goldenrod;
+}
 
 
 /* #endregion main */
+
+/* #region footer */
+
+footer {
+  background-color: red;
+}
+
+/* #endregion footer */
