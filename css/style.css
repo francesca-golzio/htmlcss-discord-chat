@@ -16,6 +16,11 @@ body {
 
 /* #region main */
 
+main {
+  background-color: bisque;
+  display: flex;
+}
+
 .sidebar {
   background-color: cornflowerblue;
 }
