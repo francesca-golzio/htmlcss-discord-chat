@@ -75,13 +75,22 @@ main {
 
 
 
-
-
 .sidebar {
   display: flex;
   flex-direction: column;
   gap: 15px;
   padding: 10px;
+  padding-left: 0;
+}
+
+.server-container {
+  display: flex;
+  align-items: flex-end;
+  gap: 8px;
+}
+
+.server-container:hover .hover-bar {
+visibility: visible;  
 }
 
 .server-discord {
@@ -91,6 +100,19 @@ main {
 .server-item {
   width: 55px;
 }
+
+.server-item:hover {
+  width: 60px;
+}
+
+.hover-bar {
+    visibility: hidden;  
+    background-color: #fff;
+    width: 4px;
+    height: 50px;
+    border-radius: 0 5px 5px 0;
+  }
+
 
 
 .chat-list-container {
