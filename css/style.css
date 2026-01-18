@@ -126,6 +126,7 @@ main {
 .more-friends,
 .chat-item {
   padding-left: 0;
+position: relative;
 }
 
 .chat-item h2 {
@@ -138,6 +139,35 @@ main {
   border-radius: 50%;
   width: 2.5rem;
 }
+
+  /* User status classes */
+
+  .online,
+  .offline,
+  .not-disturb {
+    width: 8px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    border: 5px solid #1C1D22;
+    position: absolute;
+    bottom: 14px;
+    left: 25px;
+  }
+  
+  .online {
+    background-color: #39A65D;
+  }
+  
+  .offline {
+    background-color: #F94349;
+    
+  }
+  
+  .not-disturb {
+    background-color: #F4A71B;
+
+  }
+
 
 .chat-info {
 flex-basis: 100%;
